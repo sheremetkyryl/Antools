@@ -3,16 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Antools</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,500;1,500&family=Poppins:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,500;1,500&family=Poppins:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&family=Roboto:ital@0;1&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./src/css/style.css">
     <link rel="stylesheet" href="./src/css/reset.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
 </head>
 <body>
     <!-- ------------------------------шапка------------------------------ -->
     <header class="header">
         <div class="container">
-            <a href="index.html" class="logo"><img src="./src/images/logo.webp" alt="logo">antools.</a>
+            <a href="index.html" class="logo"><img src="./src/images/logo/logo.webp" alt="logo">antools.</a>
             <nav class="header-nav">
             <ul class="nav-list">
                 <li class="list-item"><a href="#" class="nav-link">Home</a></li>
@@ -27,78 +36,176 @@
         </ul>
         </div>
     </header>
-    <!-- ------------------------------основна частина------------------------------ -->
+    <!--------------------------------основна частина------------------------------ -->
     <main class="main">
         <section class="hero">
             <div class="container">
                 <h1 class="hero-title">Awesome tools for
                     Designer & Developer.</h1>
                     <p class="hero-text">Antool is a web collection of information on paid or free Design and Development tools</p>
-                    <form action="">
-                    <input type="text"  placeholder="Enter your text here">
+                    <form action="" class="hero-form">
+                    <input class="hero-placeholder" type="text"  placeholder="find more than 430+ tools...">
                     <button class="hero-button">Search</button>
+                    <a class="hero-social-networks" href="https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2F"><img src="./src/images/social-networks/facebook.webp" alt=""></a>
+                    <a class="hero-social-networks" href="https://www.instagram.com/"><img src="./src/images/social-networks/instagram.webp" alt=""></a>
+                    <a class="hero-social-networks" href="https://x.com/?lang=uk&mx=2"><img src="./src/images/social-networks/twitter.webp" alt=""></a>
+                    <img class="hero-background" src="./src/images/background/Illustration (1).webp" alt="background">
                 </form>
             </div>
                 </section>
                 <!-- ------------------------------програми------------------------------ -->
                     <section class="tools">
                         <div class="container">
-                    <h2 class="tool-name">Most Popular Tools</h2>
-                    <p class="tool-text">Tools for the best Designers and Developers
+                    <h2 class="tool-title">Most Popular Tools</h2>
+                    <p class="tools-text">Tools for the best Designers and Developers
                         most popularly used in the world</p>
                         <ul>
-                            <li class="tool-item"><img src="./src/images/tools-logo/figma.webp" alt="figma"></li>
-                            <li class="tool-item"><h3 class="tool-name">FIGMA</h3></li>
-                            <li class="tool-item"><p class="tool-price">Free</p></li>
-                            <li class="tool-item"><p class="tool-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></li>
-                            <li class="tool-item"><a class="tool-link">Visit</a></li>
-                        </ul>
-                        <ul class="tool-list">
-                            <li class="tool-item"><img src="./src/images/tools-logo/sketch.webp" alt="sketch"></li>
-                            <li class="tool-item"><h3 class="tool-name">Sketch</h3></li>
-                            <li class="tool-item"><p class="tool-price">Trial & Paid</p></li>
-                            <li class="tool-item"><p class="tool-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></li>
-                            <li class="tool-item"><a class="tool-link">Visit</a></li>
-                        </ul>
-                        <ul class="tool-list">
-                            <li class="tool-item"><img src="./src/images/tools-logo/visual-studio-code.webp" alt="visual-studio-code"></li>
-                            <li class="tool-item"><h3 class="tool-name">Visual Studio Code</h3></li>
-                            <li class="tool-item"><p class="tool-price">Free</p></li>
-                            <li class="tool-item"><p class="tool-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></li>
-                            <li class="tool-item"><a class="tool-link">Visit</a></li>
-                        </ul>
-                        <ul class="tool-list">
-                            <li class="tool-item"><img src="./src/images/tools-logo/notion.webp" alt="notion"></li>
-                            <li class="tool-item"><h3 class="tool-name">Notion</h3></li>
-                            <li class="tool-item"><p class="tool-price">Free & Paid</p></li>
-                            <li class="tool-item"><p class="tool-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></li>
-                            <li class="tool-item"><a class="tool-link">Visit</a></li>
-                        </ul>
-                        <ul class="tool-list">
-                            <li class="tool-item"><img src="./src/images/tools-logo/slack.webp" alt="slack"></li>
-                            <li class="tool-item"><h3 class="tool-name">Slack</h3></li>
-                            <li class="tool-item"><p class="tool-price">Free & Paid</p></li>
-                            <li class="tool-item"><p class="tool-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></li>
-                            <li class="tool-item"><a class="tool-link">Visit</a></li>
-                        </ul>
-                        <ul class="tool-list">
-                            <li class="tool-item"><img src="./src/images/tools-logo/invision.webp" alt="Invision"></li>
-                            <li class="tool-item"><h3 class="tool-name">Invision</h3></li>
-                            <li class="tool-item"><p class="tool-price">Free & Paid</p></li>
-                            <li class="tool-item"><p class="tool-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></li>
-                            <li class="tool-item"><a class="tool-link">Visit</a></li>
-                        </ul>
-                        <button>Load more</button>
+                            <li>
+                                <article>
+                                    <div class="tool-top">
+                                        <div class="tool-photo">
+                                            <img src="./src/images/tools-logo/figma.webp" alt="figma">
+                                        </div>
+                                        <div class="tool-heading">
+                                            <h3 class="tool-name">FIGMA</h3>
+                                            <p class="tool-price">Free</p>
+                                        </div>
+                                    </div>
+                                    <p class="tool-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                    <div class="tool-actions">
+                                        <ul class="action-list">
+                                            <li class="action-item"><button></button></li>
+                                            <li class="action-item"><button></button></li>
+                                        </ul>
+                                        <a class="action-link" href="">Visit</a>
+                                    </div>
+                                </article>
+                            </li>
+                            <ul>
+                                <li>
+                                    <article>
+                                        <div class="tool-top">
+                                            <div class="tool-photo">
+                                                <img src="./src/images/tools-logo/sketch.webp" alt="Sketch">
+                                            </div>
+                                            <div class="tool-heading">
+                                                <h3 class="tool-name">Sketch</h3>
+                                                <p class="tool-price">Trial & Paid</p>
+                                            </div>
+                                        </div>
+                                        <p class="tool-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                        <div class="tool-actions">
+                                            <ul class="action-list">
+                                                <li class="action-item"><button></button></li>
+                                                <li class="action-item"><button></button></li>
+                                            </ul>
+                                            <a class="action-link" href="">Visit</a>
+                                        </div>
+                                    </article>
+                                </li>
                     </div>
+                    <ul>
+                        <li>
+                            <article>
+                                <div class="tool-top">
+                                    <div class="tool-photo">
+                                        <img src="./src/images/tools-logo/visual-studio-code.webp" alt="Visual studio code">
+                                    </div>
+                                    <div class="tool-heading">
+                                        <h3 class="tool-name">Visual Studio Code</h3>
+                                        <p class="tool-price">Free</p>
+                                    </div>
+                                </div>
+                                <p class="tool-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                <div class="tool-actions">
+                                    <ul class="action-list">
+                                        <li class="action-item"><button></button></li>
+                                        <li class="action-item"><button></button></li>
+                                    </ul>
+                                    <a class="action-link" href="">Visit</a>
+                                </div>
+                            </article>
+                        </li>
+            </div>
+            <ul>
+                <li>
+                    <article>
+                        <div class="tool-top">
+                            <div class="tool-photo">
+                                <img src="./src/images/tools-logo/notion.webp" alt="Notion">
+                            </div>
+                            <div class="tool-heading">
+                                <h3 class="tool-name">Notion</h3>
+                                <p class="tool-category">Free & Paid</p>
+                            </div>
+                        </div>
+                        <p class="tool-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <div class="tool-actions">
+                            <ul class="action-list">
+                                <li class="action-item"><button></button></li>
+                                <li class="action-item"><button></button></li>
+                            </ul>
+                            <a class="action-link" href="">Visit</a>
+                        </div>
+                    </article>
+                </li>
+    </div>
+    <ul>
+        <li>
+            <article>
+                <div class="tool-top">
+                    <div class="tool-photo">
+                        <img src="./src/images/tools-logo/slack.webp" alt="slack">
+                    </div>
+                    <div class="tool-heading">
+                        <h3 class="tool-name">Slack</h3>
+                        <p class="tool-category">Free & Paid</p>
+                    </div>
+                </div>
+                <p class="tool-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <div class="tool-actions">
+                    <ul class="action-list">
+                        <li class="action-item"><button></button></li>
+                        <li class="action-item"><button></button></li>
+                    </ul>
+                    <a class="action-link" href="">Visit</a>
+                </div>
+            </article>
+        </li>
+</div>
+<ul>
+    <li>
+        <article>
+            <div class="tool-top">
+                <div class="tool-photo">
+                    <img src="./src/images/tools-logo/invision.webp" alt="Invision">
+                </div>
+                <div class="tool-heading">
+                    <h3 class="tool-name">Invision</h3>
+                    <p class="tool-category">Free & Paid</p>
+                </div>
+            </div>
+            <p class="tool-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <div class="tool-actions">
+                <ul class="action-list">
+                    <li class="action-item"><button></button></li>
+                    <li class="action-item"><button></button></li>
+                </ul>
+                <a class="action-link" href="">Visit</a>
+            </div>
+        </article>
+    </li>
+</div>
+<button class="load-more">load-more</button>
                     </section>
                     <!-- ------------------------------бренди------------------------------ -->
                     <section class="brands">
                         <h3 class="brands-title">Trusted more than 150+ brand</h3>
-                        <ul>
-                        <li><a href=""><img src="./src/images/brands/microsoft.webp" alt="microsoft"></a></li>
-                        <li><a href=""><img src="./src/images/brands/google.webp" alt="google"></a></li>
-                        <li><a href=""><img src="./src/images/brands/slack.webp" alt="slack"></a></li>
-                        <li><a href=""><img src="./src/images/brands/wordpress.webp" alt="wordpress"></a></li>
+                        <ul class="brands-list">
+                        <li class="brand-item"><a href="" class="brand-photo"><img src="./src/images/brands/microsoft.webp" alt="microsoft"></a></li>
+                        <li class="brand-item"><a href="" class="brand-photo"><img src="./src/images/brands/google.webp" alt="google"></a></li>
+                        <li class="brand-item"><a href="" class="brand-photo"><img src="./src/images/brands/slack.webp" alt="slack"></a></li>
+                        <li class="brand-item"><a href="" class="brand-photo"><img src="./src/images/brands/wordpress.webp" alt="wordpress"></a></li>
                     </ul>
                     </section>
             </div>
@@ -107,51 +214,146 @@
                 <h2 class="newcomer-text">Newcomer Tools</h2>
                 <p class="newcomer-tools-text">Wow! see the latest update of the most recommended tools from reliable designers and developers</p>
                 <button class="newcomer-tools-button">Explore more</button>
-                <ul class="newcomer-tool-list">
-                    <h3 class="newcomer-tool-name">Zeplin</h3>
-                    <p class="newcomer-tool-price">Free & Paid</p>
-                    <p class="newcomer-tool-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    <a class="newcomer-tool-link">Visit</a>
-                </ul>
-                <ul class="newcomer-tool-list">
-                    <h3 class="newcomer-tool-name">PHPStorm</h3>
-                    <p class="newcomer-tool-price">Free</p>
-                    <p class="newcomer-tool-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    <a class="newcomer-tool-link">Visit</a>
-                </ul>
-                <ul class="newcomer-tool-list">
-                    <h3 class="newcomer-tool-name">Toolbox</h3>
-                    <p class="newcomer-tool-price">Free</p>
-                    <p class="newcomer-tool-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    <a class="newcomer-tool-link">Visit</a>
-                </ul>
-                <ul class="newcomer-tool-list">
-                    <h3 class="newcomer-tool-name">Procreate</h3>
-                    <p class="newcomer-tool-price">Paid</p>
-                    <p class="newcomer-tool-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    <a class="newcomer-tool-link">Visit</a>
-                </ul>
+                <ul>
+                    <li>
+                        <article>
+                            <div class="tool-top">
+                                <div class="tool-photo">
+                                    <img src="./src/images/tools-logo/zeplin.webp" alt="Zeplin">
+                                </div>
+                                <div class="tool-heading">
+                                    <h3 class="tool-name">Zeplin</h3>
+                                    <p class="tool-price">Free & Paid</p>
+                                </div>
+                            </div>
+                            <p class="tool-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <div class="tool-actions">
+                                <ul class="action-list">
+                                    <li class="action-item"><button></button></li>
+                                    <li class="action-item"><button></button></li>
+                                </ul>
+                                <a class="action-link" href="">Visit</a>
+                            </div>
+                        </article>
+                    </li>
+                    <ul>
+                        <li>
+                            <article>
+                                <div class="tool-top">
+                                    <div class="tool-photo">
+                                        <img src="./src/images/tools-logo/phpstorm.webp" alt="PHPStorm">
+                                    </div>
+                                    <div class="tool-heading">
+                                        <h3 class="tool-name">Zeplin</h3>
+                                        <p class="tool-price">Free</p>
+                                    </div>
+                                </div>
+                                <p class="tool-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                <div class="tool-actions">
+                                    <ul class="action-list">
+                                        <li class="action-item"><button></button></li>
+                                        <li class="action-item"><button></button></li>
+                                    </ul>
+                                    <a class="action-link" href="">Visit</a>
+                                </div>
+                            </article>
+                        </li>
+                        <ul>
+                            <li>
+                                <article>
+                                    <div class="tool-top">
+                                        <div class="tool-photo">
+                                            <img src="./src/images/tools-logo/toolbox.webp" alt="Toolbox">
+                                        </div>
+                                        <div class="tool-heading">
+                                            <h3 class="tool-name">Toolbox</h3>
+                                            <p class="tool-price">Free</p>
+                                        </div>
+                                    </div>
+                                    <p class="tool-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                    <div class="tool-actions">
+                                        <ul class="action-list">
+                                            <li class="action-item"><button></button></li>
+                                            <li class="action-item"><button></button></li>
+                                        </ul>
+                                        <a class="action-link" href="">Visit</a>
+                                    </div>
+                                </article>
+                            </li>
+                            <ul>
+                                <li>
+                                    <article>
+                                        <div class="tool-top">
+                                            <div class="tool-photo">
+                                                <img src="./src/images/tools-logo/procreate.webp" alt="Procreate">
+                                            </div>
+                                            <div class="tool-heading">
+                                                <h3 class="tool-name">Procreate</h3>
+                                                <p class="tool-price">Paid</p>
+                                            </div>
+                                        </div>
+                                        <p class="tool-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                        <div class="tool-actions">
+                                            <ul class="action-list">
+                                                <li class="action-item"><button></button></li>
+                                                <li class="action-item"><button></button></li>
+                                            </ul>
+                                            <a class="action-link" href="">Visit</a>
+                                        </div>
+                                    </article>
+                                </li>
             </section>
-            <section>
-          <div>
-            <article><img src="./src/images/developers/ronald-richards.webp" alt="ronald-richards">
-            <p>Incididunt cillum do sint sint enim ullamco id deserunt mollit qui reprehenderit do. Velit ex tempor cillum ad sint occaecat. Do nulla velit labore occaecat do deserunt Lorem magna officia incididunt consectetur amet. Sunt consectetur veniam minim ex commodo sint non. Occaecat aute officia excepteur non laboris id qui ad.</p>
+            <section class="developer">
+          <div class="container">
+            <article class="developer-card"><img src="./src/images/developers/ronald-richards.webp" alt="ronald-richards">
+            <p class="developer-text">Incididunt cillum do sint sint enim ullamco id deserunt mollit qui reprehenderit do. Velit ex tempor cillum ad sint occaecat. Do nulla velit labore occaecat do deserunt Lorem magna officia incididunt consectetur amet. Sunt consectetur veniam minim ex commodo sint non. Occaecat aute officia excepteur non laboris id qui ad.</p>
         </article>
           </div>
         </section>
-        <section>
-            <div>
-                <h2>Become a contributor?</h2>
-                <p>Join us and get tips & tricks to become a great Designer and Developer</p>
-                <form action="">
-                    <input type="text" placeholder="Enter your email...">
-                    <button>Join Us</button>
+        <section class="join">
+            <div class="container">
+                <h2 class="join-title">Become a contributor?</h2>
+                <p class="join-text">Join us and get tips & tricks to become a great Designer and Developer</p>
+                <form class="join-form" action="" class="join-input-field">
+                    <input class="join-input-text" type="text" placeholder="Enter your email...">
+                    <button class="join-input-button">Join Us</button>
                 </form>
             </div>
         </section>
     </main>
-    <footer>
-        
+     <!-- ------------------------------футер------------------------------ -->
+    <footer class="footer">
+        <div class="copyright">
+            <ul class="copyright-list">
+            <li class="copyright-item"><a class="copyright-image" href="index.html"><img src="./src/images/logo/orange-logo.webp" alt="logo"></a></li>
+            <li class="copyright-item"><h2 class="copyright-title">antools.</h2></li>
+            <li class="copyright-item"><p class="copyright-text">Copyright 2021. Antools</p></li>
+            <li class="copyright-item"><p class="copyright-second-text">Antool is a web collection of information on paid or free Design and Development tools</p></li>
+        </ul>
+        </div>
+        <div class="contact">
+            <ul class="contact-list">
+            <li class="contact-item"><h2 class="contact-title">Contact Us</h2></li>
+            <li class="contact-item"><p class="contact-text">+621987463</p></li>
+            <li class="contact-item"><p class="contact-text">M Building, No.10 A</p></li>
+            <li class="contact-item"><p class="contact-text">antools@awesome.com</p></li>
+        </ul>
+        </div>
+        <div class="categories">
+            <ul class="categories-list">
+            <li class="categorie-item"><h2 class="categorie-title">Categories</h2></li>
+            <li class="categorie-item"><p class="categorie-text">Design</p></li>
+            <li class="categorie-item"><p class="categorie-text">Development</p></li>
+        </ul>
+        </div>
+        <div class="company-info">
+            <ul class="company-info-list">
+            <li class="company-info-item"><h2 class="company-info-title">Company Info</h2></li>
+            <li class="company-info-item"><p class="company-info-text">About Us</p></li>
+            <li class="company-info-item"><p class="company-info-text">Our Partners</p></li>
+            <li class="company-info-item"><p class="company-info-text">Blog</p></li>
+        </ul>
+        </div>
     </footer>
 </body>
 </html>

@@ -1,0 +1,168 @@
+:root {
+    --primaryTextColor: #ffffff;
+    --secondTextColor: #FFA537;
+    --bgColor: #1E252B;
+    --secondBgColor: #283036;
+    --thirdBgColor: #FF6E30 ;
+}
+body {
+    font-family: "Poppins", sans-serif;
+    color: var(--bgColor);
+}
+
+/* ----------------------------------------ШАПКА САЙТУ---------------------------------------- */
+
+
+.logo {
+    font-weight: 600;
+    font-size: 22px;
+}
+.list-item {
+    font-weight: 500;
+    font-size: 16px;
+}
+.login {
+    font-weight: 600;
+    font-size: 16px;
+}
+.sign-up{
+    font-weight: 600;
+    font-size: 16px;
+}
+
+/* ----------------------------------------ШАПКА САЙТУ---------------------------------------- */
+
+.hero-title {
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 140%;
+}
+.hero-text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 167%;
+}
+.hero-placeholder {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 167%;
+}
+.hero-button {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 167%;
+}
+.tool-title {
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 130%;
+}
+.tools-text {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 167%;
+}
+.tool-name {
+    font-weight: 500;
+    font-size: 24px;
+}
+.tool-price {
+    font-weight: 400;
+    font-size: 18px; 
+}
+.tool-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 187%; 
+}
+.action-link {
+    font-weight: 600;
+    font-size: 16px;
+}
+.load-more {
+    font-weight: 500;
+    font-size: 20px;
+}
+.brands-title {
+    font-weight: 500;
+    font-size: 24px;
+}
+.newcomer-text {
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 130%;
+}
+.newcomer-tools-text{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 167%;
+}
+.newcomer-tools-button {
+    font-weight: 500;
+    font-size: 18px;
+}
+.developer-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 214%;
+    letter-spacing: 0.01em;   
+}
+.join-title {
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 130%;
+}
+.join-text {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 167%;
+}
+.join-input-text {
+    font-weight: 400;
+    font-size: 14px;
+}
+.join-input-button {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+/* ----------------------------------------підвал---------------------------------------- */
+
+
+.copyright-title{
+    font-weight: 600;
+    font-size: 22px;
+}
+.copyright-text {
+    font-weight: 500;
+    font-size: 16px;
+}
+.copyright-second-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 179%; 
+}
+.contact-title {
+    font-weight: 500;
+    font-size: 20px;
+}
+.contact-text {
+    font-weight: 500;
+    font-size: 16px;
+}
+.categorie-title {
+    font-weight: 500;
+    font-size: 20px;
+}
+.categorie-text {
+    font-weight: 500;
+    font-size: 16px;
+}
+.company-info-title {
+    font-weight: 500;
+    font-size: 20px;
+}
+.company-info-text {
+    font-weight: 500;
+    font-size: 16px;
+}
