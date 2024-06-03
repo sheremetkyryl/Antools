@@ -7,115 +7,250 @@
 }
 body {
     font-family: "Poppins", sans-serif;
-    color: var(--bgColor);
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--primaryTextColor);
+    background-color: var(--bgColor);
+
+}
+.container {
+    max-width: 1470px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 /* ----------------------------------------ШАПКА САЙТУ---------------------------------------- */
 
 
+ .header {
+    padding-top: 26px;
+    padding-bottom: 104px;
+ }
+ .header-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 15px;
+    margin: 0 15px;
+ }
 .logo {
     font-weight: 600;
     font-size: 22px;
 }
+.nav-list{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
 .list-item {
     font-weight: 500;
-    font-size: 16px;
+    opacity: 0.5;
 }
-.login {
+.authorization-list {
     font-weight: 600;
-    font-size: 16px;
-}
-.sign-up{
-    font-weight: 600;
-    font-size: 16px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
 }
 
-/* ----------------------------------------ШАПКА САЙТУ---------------------------------------- */
+/* ----------------------------------------основна частина---------------------------------------- */
 
+.hero {
+    padding-bottom: 200px;
+}
 .hero-title {
     font-weight: 500;
     font-size: 50px;
     line-height: 140%;
+    padding-bottom: 30px;
 }
 .hero-text {
     font-weight: 400;
     font-size: 18px;
     line-height: 167%;
+    padding-bottom: 60px;
+    opacity: 0.5;
+}
+.search-tools {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--secondBgColor);
+    max-width: 533px;
+    padding: 8px 11px;
+    margin-top: 60px;
+    margin-bottom: 110px;
 }
 .hero-placeholder {
     font-weight: 400;
     font-size: 18px;
     line-height: 167%;
+    margin-left: 13px;
+    background-color: var(--secondBgColor);
 }
 .hero-button {
     font-weight: 400;
     font-size: 18px;
     line-height: 167%;
+    margin-left: 111px;
+    color: var(--primaryTextColor);
+    background-color: var(--thirdBgColor);
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 36px;
+    padding-right: 36px;
+    border: var(--thirdBgColor);
+    border-radius: 10px;
 }
+.hero-social-networks {
+    padding-right: 20px;
+}
+.hero-background {
+    display: flex;
+}
+.tool-list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding-bottom: 100px;
+    gap: 24px;
+}
+.tool-top {
+    display: flex;
+    flex-direction: row;
+    gap: 30px; 
+}
+.tool-heading {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+.tool-text {
+    display: flex;
+}
+.action-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    gap: 12px;
+}
+
 .tool-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-weight: 500;
     font-size: 48px;
     line-height: 130%;
+    padding-bottom: 25px;
 }
 .tools-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-weight: 500;
     font-size: 18px;
     line-height: 167%;
+    padding-bottom: 90px;
+    opacity: 0.5;
 }
 .tool-name {
     font-weight: 500;
     font-size: 24px;
+    padding-bottom: 3px;
 }
 .tool-price {
     font-weight: 400;
     font-size: 18px; 
+    padding-bottom: 30px;
+    color: var(--secondTextColor);
+    /* padding-top: 3px; */
 }
 .tool-text {
     font-weight: 400;
-    font-size: 16px;
-    line-height: 187%; 
+
+    padding-bottom: 30px;
+    opacity: 0.5;
 }
 .action-link {
     font-weight: 600;
-    font-size: 16px;
+    opacity: 0.5;
 }
 .load-more {
     font-weight: 500;
     font-size: 20px;
+    color: var(--secondTextColor);
+}
+.brands-container {
+    padding-top: 55px;
+    padding-bottom: 50px;
+    border: var(--secondBgColor);
+    border-radius: 30px;
+    background-color: var(--secondBgColor);
 }
 .brands-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-weight: 500;
     font-size: 24px;
+    padding-bottom: 55px;
+    opacity: 0.8;
+}
+.brands-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 107px;
+}
+.newcomer-tools {
+    padding-bottom: 200px;
 }
 .newcomer-text {
     font-weight: 500;
     font-size: 48px;
     line-height: 130%;
+    padding-bottom: 30px;
 }
 .newcomer-tools-text{
     font-weight: 500;
     font-size: 18px;
     line-height: 167%;
+    padding-bottom: 60px;
+    opacity: 0.5;
 }
 .newcomer-tools-button {
     font-weight: 500;
     font-size: 18px;
+}
+.developer {
+    padding-bottom: 250px;
 }
 .developer-text {
     font-weight: 400;
     font-size: 14px;
     line-height: 214%;
     letter-spacing: 0.01em;   
+    opacity: 0.8;
+}
+.join {
+    padding-bottom: 240px;
 }
 .join-title {
     font-weight: 500;
     font-size: 48px;
     line-height: 130%;
+    padding-bottom: 25px;
 }
 .join-text {
     font-weight: 500;
     font-size: 18px;
     line-height: 167%;
+    padding-bottom: 100px;
+    opacity: 0.5;
 }
 .join-input-text {
     font-weight: 400;
@@ -123,46 +258,61 @@ body {
 }
 .join-input-button {
     font-weight: 600;
-    font-size: 16px;
 }
 
 /* ----------------------------------------підвал---------------------------------------- */
 
 
+.footer {
+    padding-bottom: 351px;
+}
 .copyright-title{
     font-weight: 600;
     font-size: 22px;
+    padding-bottom: 27px;
+    opacity: 0.9;
 }
 .copyright-text {
     font-weight: 500;
-    font-size: 16px;
+    padding-bottom: 21px;
+    opacity: 0.9;
 }
 .copyright-second-text {
     font-weight: 400;
     font-size: 14px;
     line-height: 179%; 
+    opacity: 0.5;
 }
 .contact-title {
     font-weight: 500;
     font-size: 20px;
+    padding-bottom: 20px;
+    opacity: 0.9;
 }
 .contact-text {
     font-weight: 500;
-    font-size: 16px;
+    padding-bottom: 10px;
+    opacity: 0.5;
 }
 .categorie-title {
     font-weight: 500;
     font-size: 20px;
+    padding-bottom: 20px;
+    opacity: 0.9;
 }
 .categorie-text {
     font-weight: 500;
-    font-size: 16px;
+    padding-bottom: 10px;
+    opacity: 0.5;
 }
 .company-info-title {
     font-weight: 500;
     font-size: 20px;
+    padding-bottom: 20px;
+    opacity: 0.9;
 }
 .company-info-text {
     font-weight: 500;
-    font-size: 16px;
+    padding-bottom: 10px;
+    opacity: 0.5;
 }

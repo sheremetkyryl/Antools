@@ -20,7 +20,7 @@
 <body>
     <!-- ------------------------------шапка------------------------------ -->
     <header class="header">
-        <div class="container">
+        <div class="header-container">
             <a href="index.html" class="logo"><img src="./src/images/logo/logo.webp" alt="logo">antools.</a>
             <nav class="header-nav">
             <ul class="nav-list">
@@ -30,9 +30,9 @@
                 <li class="list-item" ><a href="#" class="nav-link">Blog</a></li>
             </ul>
         </nav>
-        <ul class="authorization">
-            <li><a href="#" class="login">Login</a></li>
-            <li><a href="#" class="sign up">Sign up</a></li>
+        <ul class="authorization-list">
+            <li><a href="#" class="authorization-item">Login</a></li>
+            <li><a href="#" class="authorization-item">Sign up</a></li>
         </ul>
         </div>
     </header>
@@ -41,27 +41,31 @@
         <section class="hero">
             <div class="container">
                 <h1 class="hero-title">Awesome tools for
-                    Designer & Developer.</h1>
-                    <p class="hero-text">Antool is a web collection of information on paid or free Design and Development tools</p>
+                   <br> Designer & Developer.</h1>
+                    <p class="hero-text">Antool is a web collection of information on paid or <br> free Design and Development tools</p>
+                    <div class="search-tools">
                     <form action="" class="hero-form">
-                    <input class="hero-placeholder" type="text"  placeholder="find more than 430+ tools...">
+                    <img src="./src/images/icons/search.webp" alt="">
+                    <input class="hero-placeholder" type="text"  placeholder="find more than 430+ tools..." >
                     <button class="hero-button">Search</button>
-                    <a class="hero-social-networks" href="https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2F"><img src="./src/images/social-networks/facebook.webp" alt=""></a>
-                    <a class="hero-social-networks" href="https://www.instagram.com/"><img src="./src/images/social-networks/instagram.webp" alt=""></a>
-                    <a class="hero-social-networks" href="https://x.com/?lang=uk&mx=2"><img src="./src/images/social-networks/twitter.webp" alt=""></a>
-                    <img class="hero-background" src="./src/images/background/Illustration (1).webp" alt="background">
                 </form>
             </div>
+            <div class="social-networks"></div>
+            <a class="hero-social-networks" href="https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2F"><img src="./src/images/social-networks/facebook.webp" alt=""></a>
+            <a class="hero-social-networks" href="https://www.instagram.com/"><img src="./src/images/social-networks/instagram.webp" alt=""></a>
+            <a class="hero-social-networks" href="https://x.com/?lang=uk&mx=2"><img src="./src/images/social-networks/twitter.webp" alt=""></a>
+            </div>
+            <img class="hero-background" src="./src/images/background/background.webp" alt="background">
                 </section>
                 <!-- ------------------------------програми------------------------------ -->
                     <section class="tools">
                         <div class="container">
                     <h2 class="tool-title">Most Popular Tools</h2>
                     <p class="tools-text">Tools for the best Designers and Developers
-                        most popularly used in the world</p>
-                        <ul>
-                            <li>
-                                <article>
+                       <br> most popularly used in the world</p>
+                        <ul class="tool-list">
+                            <li class="tool-item">
+                                <article class="tool-card">
                                     <div class="tool-top">
                                         <div class="tool-photo">
                                             <img src="./src/images/tools-logo/figma.webp" alt="figma">
@@ -71,19 +75,20 @@
                                             <p class="tool-price">Free</p>
                                         </div>
                                     </div>
-                                    <p class="tool-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                    <p class="tool-text">Lorem ipsum dolor sit amet,<br> consectetur <br> adipiscing elit.</p>
                                     <div class="tool-actions">
                                         <ul class="action-list">
-                                            <li class="action-item"><button></button></li>
-                                            <li class="action-item"><button></button></li>
+                                            <li class="action-item"><button class="action-icon"><img src="./src/images/icons/heart.webp" alt=""></button></li>
+                                            <li class="action-item"><button class="action-icon"><img src="./src/images/icons/folder.webp" alt=""></button></li>
+                                            <li><a class="action-link" href="">Visit</a></li>
                                         </ul>
-                                        <a class="action-link" href="">Visit</a>
+                                        
                                     </div>
                                 </article>
                             </li>
-                            <ul>
-                                <li>
-                                    <article>
+                            <ul class="tool-list">
+                                <li class="tool-item">
+                                    <article class="tool-card">
                                         <div class="tool-top">
                                             <div class="tool-photo">
                                                 <img src="./src/images/tools-logo/sketch.webp" alt="Sketch">
@@ -93,7 +98,7 @@
                                                 <p class="tool-price">Trial & Paid</p>
                                             </div>
                                         </div>
-                                        <p class="tool-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                        <p class="tool-text">Lorem ipsum dolor sit amet,<br> consectetur <br> adipiscing elit.</p>
                                         <div class="tool-actions">
                                             <ul class="action-list">
                                                 <li class="action-item"><button></button></li>
@@ -103,10 +108,9 @@
                                         </div>
                                     </article>
                                 </li>
-                    </div>
-                    <ul>
-                        <li>
-                            <article>
+                    <ul class="tool-list">
+                        <li class="tool-item">
+                            <article class="tool-card">
                                 <div class="tool-top">
                                     <div class="tool-photo">
                                         <img src="./src/images/tools-logo/visual-studio-code.webp" alt="Visual studio code">
@@ -116,7 +120,7 @@
                                         <p class="tool-price">Free</p>
                                     </div>
                                 </div>
-                                <p class="tool-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                <p class="tool-text">Lorem ipsum dolor sit amet,<br> consectetur <br> adipiscing elit.</p>
                                 <div class="tool-actions">
                                     <ul class="action-list">
                                         <li class="action-item"><button></button></li>
@@ -126,10 +130,9 @@
                                 </div>
                             </article>
                         </li>
-            </div>
-            <ul>
-                <li>
-                    <article>
+            <ul class="tool-list">
+                <li class="tool-item">
+                    <article class="tool-card">
                         <div class="tool-top">
                             <div class="tool-photo">
                                 <img src="./src/images/tools-logo/notion.webp" alt="Notion">
@@ -139,7 +142,7 @@
                                 <p class="tool-category">Free & Paid</p>
                             </div>
                         </div>
-                        <p class="tool-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <p class="tool-text">Lorem ipsum dolor sit amet,<br> consectetur <br> adipiscing elit.</p>
                         <div class="tool-actions">
                             <ul class="action-list">
                                 <li class="action-item"><button></button></li>
@@ -149,10 +152,9 @@
                         </div>
                     </article>
                 </li>
-    </div>
-    <ul>
-        <li>
-            <article>
+    <ul class="tool-list">
+        <li class="tool-item">
+            <article class="tool-card">
                 <div class="tool-top">
                     <div class="tool-photo">
                         <img src="./src/images/tools-logo/slack.webp" alt="slack">
@@ -162,7 +164,7 @@
                         <p class="tool-category">Free & Paid</p>
                     </div>
                 </div>
-                <p class="tool-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p class="tool-text">Lorem ipsum dolor sit amet,<br> consectetur <br> adipiscing elit.</p>
                 <div class="tool-actions">
                     <ul class="action-list">
                         <li class="action-item"><button></button></li>
@@ -172,10 +174,9 @@
                 </div>
             </article>
         </li>
-</div>
-<ul>
-    <li>
-        <article>
+<ul class="tool-list">
+    <li class="tool-item">
+        <article class="tool-card">
             <div class="tool-top">
                 <div class="tool-photo">
                     <img src="./src/images/tools-logo/invision.webp" alt="Invision">
@@ -185,7 +186,7 @@
                     <p class="tool-category">Free & Paid</p>
                 </div>
             </div>
-            <p class="tool-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <p class="tool-text">Lorem ipsum dolor sit amet,<br> consectetur <br> adipiscing elit.</p>
             <div class="tool-actions">
                 <ul class="action-list">
                     <li class="action-item"><button></button></li>
@@ -197,9 +198,11 @@
     </li>
 </div>
 <button class="load-more">load-more</button>
+
                     </section>
                     <!-- ------------------------------бренди------------------------------ -->
                     <section class="brands">
+                        <div class="container brands-container">
                         <h3 class="brands-title">Trusted more than 150+ brand</h3>
                         <ul class="brands-list">
                         <li class="brand-item"><a href="" class="brand-photo"><img src="./src/images/brands/microsoft.webp" alt="microsoft"></a></li>
@@ -207,16 +210,18 @@
                         <li class="brand-item"><a href="" class="brand-photo"><img src="./src/images/brands/slack.webp" alt="slack"></a></li>
                         <li class="brand-item"><a href="" class="brand-photo"><img src="./src/images/brands/wordpress.webp" alt="wordpress"></a></li>
                     </ul>
+                </div>
                     </section>
             </div>
              <!-- ------------------------------програми 2------------------------------ -->
             <section class="newcomer-tools">
+                <div class="container">
                 <h2 class="newcomer-text">Newcomer Tools</h2>
                 <p class="newcomer-tools-text">Wow! see the latest update of the most recommended tools from reliable designers and developers</p>
                 <button class="newcomer-tools-button">Explore more</button>
-                <ul>
-                    <li>
-                        <article>
+                <ul class="tool-list">
+                    <li class="tool-item">
+                        <article class="tool-card">
                             <div class="tool-top">
                                 <div class="tool-photo">
                                     <img src="./src/images/tools-logo/zeplin.webp" alt="Zeplin">
@@ -236,9 +241,9 @@
                             </div>
                         </article>
                     </li>
-                    <ul>
-                        <li>
-                            <article>
+                    <ul class="tool-list">
+                        <li class="tool-item">
+                            <article class="tool-card">
                                 <div class="tool-top">
                                     <div class="tool-photo">
                                         <img src="./src/images/tools-logo/phpstorm.webp" alt="PHPStorm">
@@ -258,9 +263,9 @@
                                 </div>
                             </article>
                         </li>
-                        <ul>
-                            <li>
-                                <article>
+                        <ul class="tool-list">
+                            <li class="tool-item">
+                                <article class="tool-card">
                                     <div class="tool-top">
                                         <div class="tool-photo">
                                             <img src="./src/images/tools-logo/toolbox.webp" alt="Toolbox">
@@ -280,9 +285,9 @@
                                     </div>
                                 </article>
                             </li>
-                            <ul>
-                                <li>
-                                    <article>
+                            <ul class="tool-list">
+                                <li class="tool-item">
+                                    <article class="tool-card">
                                         <div class="tool-top">
                                             <div class="tool-photo">
                                                 <img src="./src/images/tools-logo/procreate.webp" alt="Procreate">
@@ -302,7 +307,8 @@
                                         </div>
                                     </article>
                                 </li>
-            </section>
+                            </div>
+                  </section>
             <section class="developer">
           <div class="container">
             <article class="developer-card"><img src="./src/images/developers/ronald-richards.webp" alt="ronald-richards">
@@ -323,6 +329,7 @@
     </main>
      <!-- ------------------------------футер------------------------------ -->
     <footer class="footer">
+        <div class="container">
         <div class="copyright">
             <ul class="copyright-list">
             <li class="copyright-item"><a class="copyright-image" href="index.html"><img src="./src/images/logo/orange-logo.webp" alt="logo"></a></li>
@@ -354,6 +361,7 @@
             <li class="company-info-item"><p class="company-info-text">Blog</p></li>
         </ul>
         </div>
+    </div>
     </footer>
 </body>
 </html>
