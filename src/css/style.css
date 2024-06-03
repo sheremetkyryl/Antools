@@ -1,6 +1,7 @@
 :root {
     --primaryTextColor: #ffffff;
     --secondTextColor: #FFA537;
+    --thirdtTextColor: #FF6E30;
     --bgColor: #1E252B;
     --secondBgColor: #283036;
     --thirdBgColor: #FF6E30 ;
@@ -14,7 +15,7 @@ body {
 
 }
 .container {
-    max-width: 1470px;
+    max-width: 1250px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 15px;
@@ -59,6 +60,9 @@ body {
 
 .hero {
     padding-bottom: 200px;
+    background-image: url(/src/images/background/background.webp);
+    background-repeat: no-repeat;
+    background-position: right;
 }
 .hero-title {
     font-weight: 500;
@@ -107,15 +111,16 @@ body {
 .hero-social-networks {
     padding-right: 20px;
 }
-.hero-background {
-    display: flex;
-}
 .tool-list {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+    justify-content: center;
     padding-bottom: 100px;
     gap: 24px;
+}
+.tool-item {
+    width: 392px;
 }
 .tool-top {
     display: flex;
@@ -132,12 +137,14 @@ body {
 }
 .action-list {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     flex-direction: row;
     gap: 12px;
 }
-
+.tools {
+    padding-bottom: 200px;
+}
 .tool-title {
     display: flex;
     justify-content: center;
@@ -180,9 +187,20 @@ body {
     opacity: 0.5;
 }
 .load-more {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-weight: 500;
     font-size: 20px;
     color: var(--secondTextColor);
+    background-color: var(--secondBgColor);
+    color: var(--thirdtTextColor);
+    border: white;
+    border-radius: 5px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    padding-left: 38px;
+    padding-right: 38px;
 }
 .brands-container {
     padding-top: 55px;
@@ -210,12 +228,16 @@ body {
     padding-bottom: 200px;
 }
 .newcomer-text {
+    display: flex;
+    justify-content: left;
     font-weight: 500;
     font-size: 48px;
     line-height: 130%;
     padding-bottom: 30px;
 }
 .newcomer-tools-text{
+    display: flex;
+    justify-content: left;
     font-weight: 500;
     font-size: 18px;
     line-height: 167%;
@@ -223,11 +245,33 @@ body {
     opacity: 0.5;
 }
 .newcomer-tools-button {
+    display: flex;
+    justify-content: left;
     font-weight: 500;
     font-size: 18px;
+    color: var(--primaryTextColor);
+    background-color: var(--thirdBgColor);
+    border: var(--thirdBgColor);
+    border-radius: 10px;
+    padding-top: 16px;
+    padding-bottom: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.newcomer-tool-list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: right;
+    padding-bottom: 100px;
+    
 }
 .developer {
     padding-bottom: 250px;
+}
+.developer-box {
+    display: flex;
+    justify-content: space-between;
 }
 .developer-text {
     font-weight: 400;
@@ -240,31 +284,73 @@ body {
     padding-bottom: 240px;
 }
 .join-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-weight: 500;
     font-size: 48px;
     line-height: 130%;
     padding-bottom: 25px;
 }
 .join-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-weight: 500;
     font-size: 18px;
     line-height: 167%;
     padding-bottom: 100px;
     opacity: 0.5;
 }
+.email-input {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     max-width: 549px;
+     background-color: var(--secondBgColor);
+     color: var(--primaryTextColor);
+     padding-top: 22px;
+     padding-bottom: 21px;
+     padding-left: 24px;
+     padding-right: 260px;
+}
 .join-input-text {
     font-weight: 400;
     font-size: 14px;
+    background-color: var(--secondBgColor);
 }
 .join-input-button {
     font-weight: 600;
+    margin-left: 111px;
+    color: var(--primaryTextColor);
+    background-color: var(--thirdBgColor);
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 36px;
+    padding-right: 36px;
+    border: var(--thirdBgColor);
+    border-radius: 10px;
+    
 }
 
 /* ----------------------------------------підвал---------------------------------------- */
 
 
 .footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     padding-bottom: 351px;
+}
+.footer-container {
+    display: flex;
+    gap: 156px;
+}
+.copyright-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .copyright-title{
     font-weight: 600;
@@ -283,6 +369,11 @@ body {
     line-height: 179%; 
     opacity: 0.5;
 }
+.contact-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 .contact-title {
     font-weight: 500;
     font-size: 20px;
@@ -294,6 +385,11 @@ body {
     padding-bottom: 10px;
     opacity: 0.5;
 }
+.categories-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 .categorie-title {
     font-weight: 500;
     font-size: 20px;
@@ -304,6 +400,11 @@ body {
     font-weight: 500;
     padding-bottom: 10px;
     opacity: 0.5;
+}
+.company-info-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .company-info-title {
     font-weight: 500;
