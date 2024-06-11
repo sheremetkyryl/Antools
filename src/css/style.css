@@ -59,6 +59,20 @@ body {
   align-items: center;
   gap: 50px;
 }
+.login {
+
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 28px;
+  padding-right: 28px;
+  border: var(--thirdBgColor);
+  border-radius: 10px;
+}
+.login:hover {
+  transition: 0.2s;
+  background-color: var(--thirdBgColor);
+  border: 1px solid var(--thirdBgColor);
+}
 .sign-up {
   background-color: var(--thirdBgColor);
   padding-top: 12px;
