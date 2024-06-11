@@ -41,10 +41,6 @@ body {
   font-size: 22px;
   margin-right: 21px;
 }
-.logo:hover {
-  transition: 0.2s;
-  color: var(--thirdBgColor);
-}
 .logo-image {
   margin-right: 20px;
 }
